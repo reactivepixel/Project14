@@ -13,7 +13,7 @@ private:
 
 public:
 	void Delete(size_t index);
-	void View() const; 
+	void View() const;
 	// methods
 };
 

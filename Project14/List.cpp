@@ -1,5 +1,6 @@
 #include "List.h"
 
+
 void List::Delete(size_t index) {
 	m_Tasks.erase(m_Tasks.begin() + index);
 }
