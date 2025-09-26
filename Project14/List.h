@@ -11,7 +11,10 @@ private:
 	std::string m_Name;
 
 public:
-
+	std::vector<Task> GetTasks();
+	std::string GetName();
+	void SetTasks(std::vector<Task> Tasks);
+	void SetName(std::string Name);
 	// methods
 };
 
